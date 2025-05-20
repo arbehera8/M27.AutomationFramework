@@ -45,9 +45,9 @@ public class BaseClass {
 		       String URL = futil.readDataFrompropertyFile("url");
 		       //Launch the browser
 				//driver = new ChromeDriver();
-		       //driver = new FirefoxDriver();
+		       driver = new FirefoxDriver();
 		       
-		       driver = new EdgeDriver();
+		       //driver = new EdgeDriver();
 		       
 		       //Cross bowser testing - "Runtime polymorphism - driver"
 		       
