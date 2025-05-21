@@ -20,6 +20,7 @@ public class AddproductToCart {
 	public static void main(String[] args) throws IOException {
 		
 		//Read data From property file
+		System.out.println("SCM execution");
 		FileInputStream fis = new FileInputStream(".\\src\\test\\resources\\CommonData.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
